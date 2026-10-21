@@ -1,0 +1,88 @@
+:root {
+    --accent-color: #660000;
+}
+
+/* 3. Reset selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling & centering */
+body {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid var(--accent-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Default spacing rules */
+h1, h2, h3, h4, h5, h6, p, ul {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+ul {
+    margin-left: 2em;
+    list-style-type: none;
+}
+
+/* Header styling */
+header {
+    border-bottom: 2px solid var(--accent-color);
+    background: linear-gradient(30deg, #f6bb73 0%, white 30%, white 65%, #f6bb73 100%);
+}
+
+header img {
+    margin: 0.75em 1em;
+    float: left;
+}
+
+header h2 {
+    padding-bottom: 0;
+}
+
+header h3 {
+    padding-bottom: 1em;
+}
+
+/* Main section styling */
+main {
+    padding: 0 1em 1em 1em;
+    clear: left;
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* Speaker image formatting (4px double border with rounded corners) */
+main img.speaker-img {
+    border: 4px double var(--accent-color);
+    border-radius: 10px;
+    margin-top: 0.5em;
+}
+
+/* Extra Credit Feature: Rounded edged box for guest heading */
+main h2.guest-heading {
+    border: 2px solid var(--accent-color);
+    border-radius: 8px;
+    background-color: #fbeee0;
+    text-align: center;
+    padding: 0.5em;
+}
+
+/* Footer styling */
+footer {
+    background-color: var(--accent-color);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
